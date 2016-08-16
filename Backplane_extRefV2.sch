@@ -4331,6 +4331,68 @@ at 09/08/2012 13:45:08</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="tuckerLib">
+<packages>
+<package name="R1Z-1205">
+<smd name="1" x="-5.08" y="-5.207" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<smd name="2" x="-2.54" y="-5.08" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<smd name="4" x="2.54" y="-5.08" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<smd name="5" x="5.08" y="-5.207" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<smd name="7" x="2.54" y="3.683" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<smd name="10" x="-5.08" y="3.81" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<wire x1="5.9182" y1="0.1524" x2="5.9182" y2="3.5052" width="0.1524" layer="21"/>
+<wire x1="-5.9182" y1="3.5052" x2="-5.9182" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="-7.239" y1="-5.842" x2="-8.001" y2="-5.842" width="0.508" layer="21" curve="-180"/>
+<wire x1="-8.001" y1="-5.842" x2="-7.239" y2="-5.842" width="0.508" layer="21" curve="-180"/>
+<wire x1="-5.9182" y1="-4.9276" x2="5.9182" y2="-4.9276" width="0.1524" layer="51"/>
+<wire x1="5.9182" y1="-4.9276" x2="5.9182" y2="3.5052" width="0.1524" layer="51"/>
+<wire x1="5.9182" y1="3.5052" x2="-5.9182" y2="3.5052" width="0.1524" layer="51"/>
+<wire x1="-5.9182" y1="3.5052" x2="-5.9182" y2="-4.9276" width="0.1524" layer="51"/>
+<wire x1="-7.239" y1="-5.842" x2="-8.001" y2="-5.842" width="0.508" layer="51" curve="-180"/>
+<wire x1="-8.001" y1="-5.842" x2="-7.239" y2="-5.842" width="0.508" layer="51" curve="-180"/>
+<text x="-4.826" y="8.2296" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.9436" y="-8.9662" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="R1Z-1205">
+<pin name="1" x="-17.78" y="5.08" length="middle" direction="pas"/>
+<pin name="5" x="-17.78" y="-5.08" length="middle" direction="pas"/>
+<pin name="7" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="-17.78" y="2.54" length="middle" direction="pas"/>
+<pin name="4" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="10" x="17.78" y="5.08" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.4064" layer="94"/>
+<text x="-5.6388" y="12.065" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-6.223" y="-12.7762" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="R1Z-1205">
+<gates>
+<gate name="G$1" symbol="R1Z-1205" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R1Z-1205">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4354,6 +4416,7 @@ at 09/08/2012 13:45:08</description>
 <part name="U$6" library="SAMTEC-FLE-Mxx-Sxx_By_element14_Batch_1" deviceset="FLE-116-01-G-DV" device=""/>
 <part name="U$7" library="SAMTEC-FLE-Mxx-Sxx_By_element14_Batch_1" deviceset="FLE-116-01-G-DV" device=""/>
 <part name="U$8" library="SAMTEC-FLE-Mxx-Sxx_By_element14_Batch_1" deviceset="FLE-116-01-G-DV" device=""/>
+<part name="U$9" library="tuckerLib" deviceset="R1Z-1205" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4373,6 +4436,7 @@ at 09/08/2012 13:45:08</description>
 <instance part="U$6" gate="A" x="63.5" y="25.4"/>
 <instance part="U$7" gate="A" x="66.04" y="-33.02"/>
 <instance part="U$8" gate="A" x="66.04" y="-93.98"/>
+<instance part="U$9" gate="G$1" x="162.56" y="182.88"/>
 </instances>
 <busses>
 </busses>
@@ -4433,9 +4497,12 @@ at 09/08/2012 13:45:08</description>
 <label x="33.02" y="-91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="37"/>
-<wire x1="144.78" y1="15.24" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
-<label x="154.94" y="15.24" size="1.778" layer="95"/>
+<pinref part="U$9" gate="G$1" pin="4"/>
+<wire x1="144.78" y1="180.34" x2="129.54" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="5"/>
+<wire x1="144.78" y1="177.8" x2="129.54" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I21+" class="0">
@@ -4548,9 +4615,8 @@ at 09/08/2012 13:45:08</description>
 <label x="33.02" y="-93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="18"/>
-<wire x1="129.54" y1="15.24" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
-<label x="116.84" y="15.24" size="1.778" layer="95"/>
+<pinref part="U$9" gate="G$1" pin="7"/>
+<wire x1="180.34" y1="180.34" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I23+" class="0">
@@ -5487,6 +5553,34 @@ at 09/08/2012 13:45:08</description>
 <pinref part="X2" gate="G$1" pin="13"/>
 <wire x1="129.54" y1="27.94" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
 <label x="116.84" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC2" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="10"/>
+<wire x1="180.34" y1="187.96" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="-VIN" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="187.96" x2="129.54" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="37"/>
+<wire x1="144.78" y1="15.24" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
+<label x="154.94" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+VIN" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="18"/>
+<wire x1="129.54" y1="15.24" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
+<label x="116.84" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
