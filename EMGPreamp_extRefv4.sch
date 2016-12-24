@@ -9495,14 +9495,14 @@ type 0309, grid 2.5 mm</description>
 <part name="R10" library="rcl" deviceset="R-US_" device="R0805" value="499"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="R0805" value="499"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="R0805" value="499"/>
-<part name="C5" library="rcl" deviceset="C-US" device="C0805" value="22uF"/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0805" value="22uF"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0805" value="22uF"/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0805" value="22uF"/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="22uF"/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0805" value="22uF"/>
-<part name="C11" library="rcl" deviceset="C-US" device="C0805" value="22uF"/>
-<part name="C12" library="rcl" deviceset="C-US" device="C0805" value="22uF"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C0805" value="4700pF"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0805" value="4700pF"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0805" value="4700pF"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0805" value="4700pF"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="4700pF"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0805" value="4700pF"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0805" value="4700pF"/>
+<part name="C12" library="rcl" deviceset="C-US" device="C0805" value="4700pF"/>
 <part name="C1" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C2" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C3" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
@@ -9514,14 +9514,14 @@ type 0309, grid 2.5 mm</description>
 <part name="PAD1" library="wirepad" deviceset="WIREPAD" device="2,15/1,0" value="WIREPAD2,15/1,0"/>
 <part name="PAD2" library="wirepad" deviceset="WIREPAD" device="2,15/1,0" value="WIREPAD2,15/1,0"/>
 <part name="SV1" library="con-lstb" deviceset="MA08-2W" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="1.8k"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0805" value="1.8k"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0805" value="1.8k"/>
-<part name="R4" library="resistor" deviceset="R-US_" device="R0805" value="1.8k"/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="1.8k"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="1.8k"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="1.8k"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="R0805" value="1.8k"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="1M"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0805" value="1M"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="R0805" value="1M"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="R0805" value="1M"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="1M"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="1M"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="1M"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0805" value="1M"/>
 </parts>
 <sheets>
 <sheet>

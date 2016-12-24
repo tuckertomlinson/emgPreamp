@@ -2648,28 +2648,28 @@ design rules under a new name.</description>
 <element name="R12" library="rcl" package="R0805" value="499" x="16.51" y="17.30375" smashed="yes" rot="MR0">
 <attribute name="NAME" x="17.145" y="15.39875" size="0.635" layer="26" rot="MR0"/>
 </element>
-<element name="C5" library="rcl" package="C0805" value="22uF" x="20.79625" y="11.58875" smashed="yes" rot="R180">
+<element name="C5" library="rcl" package="C0805" value="4700pF" x="20.79625" y="11.58875" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.06424375" y="11.84049375" size="0.635" layer="25" rot="R180"/>
 </element>
-<element name="C6" library="rcl" package="C0805" value="22uF" x="13.6525" y="12.065" smashed="yes" rot="R270">
+<element name="C6" library="rcl" package="C0805" value="4700pF" x="13.6525" y="12.065" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.924503125" y="14.32601875" size="0.635" layer="25"/>
 </element>
-<element name="C7" library="rcl" package="C0805" value="22uF" x="13.49375" y="4.28625" smashed="yes" rot="R90">
+<element name="C7" library="rcl" package="C0805" value="4700pF" x="13.49375" y="4.28625" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.942759375" y="2.0956625" size="0.635" layer="25" rot="R270"/>
 </element>
-<element name="C8" library="rcl" package="C0805" value="22uF" x="20.32" y="4.7625" smashed="yes" rot="R180">
+<element name="C8" library="rcl" package="C0805" value="4700pF" x="20.32" y="4.7625" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.526546875" y="3.5037875" size="0.635" layer="25" rot="R180"/>
 </element>
-<element name="C9" library="rcl" package="C0805" value="22uF" x="20.79625" y="25.7175" smashed="yes" rot="R180">
+<element name="C9" library="rcl" package="C0805" value="4700pF" x="20.79625" y="25.7175" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.97125" y="25.7175" size="0.635" layer="25" rot="R180"/>
 </element>
-<element name="C10" library="rcl" package="C0805" value="22uF" x="13.6525" y="26.19375" smashed="yes" rot="R270">
+<element name="C10" library="rcl" package="C0805" value="4700pF" x="13.6525" y="26.19375" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.70000625" y="28.73375" size="0.635" layer="25"/>
 </element>
-<element name="C11" library="rcl" package="C0805" value="22uF" x="13.6525" y="18.25625" smashed="yes" rot="R90">
+<element name="C11" library="rcl" package="C0805" value="4700pF" x="13.6525" y="18.25625" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.248975" y="16.15865625" size="0.635" layer="25" rot="R180"/>
 </element>
-<element name="C12" library="rcl" package="C0805" value="22uF" x="20.16125" y="19.05" smashed="yes" rot="R180">
+<element name="C12" library="rcl" package="C0805" value="4700pF" x="20.16125" y="19.05" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.866978125" y="18.59631875" size="0.635" layer="25" rot="R180"/>
 </element>
 <element name="C1" library="rcl" package="C0805" value="0.1uF" x="11.43" y="8.255" smashed="yes" rot="MR270">
@@ -2709,28 +2709,28 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="2.54" y="16.8275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.35" y="14.2875" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R1" library="resistor" package="R0805" value="1.8k" x="20.79625" y="13.6525" smashed="yes" rot="R180">
+<element name="R1" library="resistor" package="R0805" value="1M" x="20.79625" y="13.6525" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.38325" y="13.9065" size="0.635" layer="25" rot="R180"/>
 </element>
-<element name="R2" library="resistor" package="R0805" value="1.8k" x="10.4775" y="11.27125" smashed="yes">
+<element name="R2" library="resistor" package="R0805" value="1M" x="10.4775" y="11.27125" smashed="yes">
 <attribute name="NAME" x="9.0805" y="12.446" size="0.635" layer="25"/>
 </element>
-<element name="R3" library="resistor" package="R0805" value="1.8k" x="11.27125" y="5.715" smashed="yes" rot="R270">
+<element name="R3" library="resistor" package="R0805" value="1M" x="11.27125" y="5.715" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.01725" y="9.017" size="0.635" layer="25" rot="R270"/>
 </element>
-<element name="R4" library="resistor" package="R0805" value="1.8k" x="18.415" y="2.54" smashed="yes">
+<element name="R4" library="resistor" package="R0805" value="1M" x="18.415" y="2.54" smashed="yes">
 <attribute name="NAME" x="17.9705" y="0.6985" size="0.635" layer="25"/>
 </element>
-<element name="R5" library="resistor" package="R0805" value="1.8k" x="20.79625" y="27.78125" smashed="yes" rot="R180">
+<element name="R5" library="resistor" package="R0805" value="1M" x="20.79625" y="27.78125" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.24075" y="29.62275" size="0.635" layer="25" rot="R180"/>
 </element>
-<element name="R6" library="resistor" package="R0805" value="1.8k" x="10.4775" y="25.24125" smashed="yes">
+<element name="R6" library="resistor" package="R0805" value="1M" x="10.4775" y="25.24125" smashed="yes">
 <attribute name="NAME" x="8.0645" y="25.49525" size="0.635" layer="25" rot="R180"/>
 </element>
-<element name="R7" library="resistor" package="R0805" value="1.8k" x="11.43" y="19.84375" smashed="yes" rot="R270">
+<element name="R7" library="resistor" package="R0805" value="1M" x="11.43" y="19.84375" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.33475" y="23.14575" size="0.635" layer="25" rot="R270"/>
 </element>
-<element name="R8" library="resistor" package="R0805" value="1.8k" x="20.16125" y="16.98625" smashed="yes" rot="R180">
+<element name="R8" library="resistor" package="R0805" value="1M" x="20.16125" y="16.98625" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.447" y="15.8115" size="0.635" layer="25" rot="R180"/>
 </element>
 </elements>
