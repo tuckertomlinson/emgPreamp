@@ -1,0 +1,10 @@
+item:				supplier:		part number:		notes:
+1xPCB				OSH Park		-			OSH accepts eagle files directly, so you can simply upload the brd file to their website
+2x ferrite bead			digikey			732-6713-1-ND 
+2x 22uF 16V capacitor		digikey			1276-2909-1-ND 
+2x 1uF capacitor		digikey			490-1691-1-ND 
+2x 0.33ohm resistor		digikey			RL12S.33FCT-ND
+1x 7805 regulator TO252		digikey			MC7805BDTRKGOSCT-ND
+1x 7810 regulator TO252		digikey			296-19534-1-ND
+1x 12V switchmode isolator	digikey			1470-2537-5-ND		this is a through hole component, but we solder it to the SMT pads, hanging off the board, for packaging
+1x 5pin 90deg header		digikey			3M9307-ND
