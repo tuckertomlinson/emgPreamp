@@ -9702,13 +9702,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="I5VF" library="testpad" deviceset="PTR1" device="PAD1-13"/>
 <part name="IGND" library="testpad" deviceset="PTR1" device="PAD1-13"/>
 <part name="VREF" library="testpad" deviceset="PTR1" device="PAD1-13"/>
-<part name="7805" library="linear" deviceset="78*" device="DT" technology="06"/>
-<part name="IC1" library="linear" deviceset="78*" device="DT" technology="05"/>
+<part name="7810" library="linear" deviceset="78*" device="DT" technology="06"/>
+<part name="7805" library="linear" deviceset="78*" device="DT" technology="05"/>
 <part name="P2GND" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
-<part name="P3GND" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
-<part name="P9NC" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
-<part name="P11NC" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
-<part name="P23VCC" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="P22VCC" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="P16-VOUT" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="P14VOUT" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
@@ -9736,13 +9732,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="I5VF" gate="G$1" x="193.04" y="48.26"/>
 <instance part="IGND" gate="G$1" x="7.62" y="-10.16"/>
 <instance part="VREF" gate="G$1" x="289.56" y="20.32"/>
-<instance part="7805" gate="A1" x="104.14" y="20.32"/>
-<instance part="IC1" gate="A1" x="238.76" y="22.86"/>
+<instance part="7810" gate="A1" x="104.14" y="20.32"/>
+<instance part="7805" gate="A1" x="238.76" y="22.86"/>
 <instance part="P2GND" gate="G$1" x="35.56" y="142.24"/>
-<instance part="P3GND" gate="G$1" x="35.56" y="149.86"/>
-<instance part="P9NC" gate="G$1" x="50.8" y="162.56"/>
-<instance part="P11NC" gate="G$1" x="73.66" y="162.56"/>
-<instance part="P23VCC" gate="G$1" x="60.96" y="149.86"/>
 <instance part="P22VCC" gate="G$1" x="60.96" y="142.24"/>
 <instance part="P16-VOUT" gate="G$1" x="91.44" y="149.86"/>
 <instance part="P14VOUT" gate="G$1" x="91.44" y="142.24"/>
@@ -9756,13 +9748,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="SV1" gate="G$1" pin="5"/>
 <label x="-10.16" y="60.96" size="1.778" layer="95"/>
 <wire x1="-27.94" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="P3GND" gate="G$1" pin="P"/>
-<wire x1="38.1" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="149.86" x2="55.88" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="P2GND" gate="G$1" pin="P"/>
 <wire x1="55.88" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="142.24" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
-<junction x="55.88" y="142.24"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -9773,10 +9761,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="81.28" y1="58.42" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="P22VCC" gate="G$1" pin="P"/>
 <wire x1="81.28" y1="142.24" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="P23VCC" gate="G$1" pin="P"/>
-<wire x1="63.5" y1="149.86" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="149.86" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
-<junction x="81.28" y="142.24"/>
 </segment>
 </net>
 <net name="VREF" class="0">
@@ -9789,7 +9773,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="-10.16" y="55.88" size="1.778" layer="95"/>
 <pinref part="VREF" gate="G$1" pin="TP"/>
 <junction x="289.56" y="22.86"/>
-<pinref part="IC1" gate="A1" pin="VO"/>
+<pinref part="7805" gate="A1" pin="VO"/>
 </segment>
 </net>
 <net name="VS2+" class="0">
@@ -9801,7 +9785,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="I5V" gate="G$1" pin="TP"/>
 <wire x1="129.54" y1="20.32" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <junction x="129.54" y="22.86"/>
-<pinref part="7805" gate="A1" pin="VO"/>
+<pinref part="7810" gate="A1" pin="VO"/>
 <wire x1="114.3" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="127" y1="20.32" x2="127" y2="22.86" width="0.1524" layer="91"/>
 </segment>
@@ -9841,7 +9825,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IGND" gate="G$1" pin="TP"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="7.62" y="-5.08"/>
-<pinref part="7805" gate="A1" pin="GND"/>
+<pinref part="7810" gate="A1" pin="GND"/>
 <wire x1="50.8" y1="-5.08" x2="104.14" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-5.08" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
 <junction x="50.8" y="-5.08"/>
@@ -9861,7 +9845,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="223.52" y1="-12.7" x2="218.44" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="-2.54" x2="218.44" y2="-2.54" width="0.1524" layer="91"/>
 <label x="218.44" y="0" size="1.778" layer="95"/>
-<pinref part="IC1" gate="A1" pin="GND"/>
+<pinref part="7805" gate="A1" pin="GND"/>
 <wire x1="238.76" y1="15.24" x2="238.76" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="-12.7" x2="223.52" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="PAD1" gate="G$1" pin="P"/>
@@ -9899,7 +9883,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="I5VF" gate="G$1" pin="TP"/>
 <wire x1="193.04" y1="50.8" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <junction x="193.04" y="53.34"/>
-<pinref part="IC1" gate="A1" pin="VI"/>
+<pinref part="7805" gate="A1" pin="VI"/>
 </segment>
 </net>
 <net name="VS1F+" class="0">
@@ -9919,7 +9903,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="I12VF" gate="G$1" pin="TP"/>
 <wire x1="63.5" y1="17.78" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <junction x="63.5" y="20.32"/>
-<pinref part="7805" gate="A1" pin="VI"/>
+<pinref part="7810" gate="A1" pin="VI"/>
 </segment>
 </net>
 <net name="N$4" class="0">

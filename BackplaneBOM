@@ -1,0 +1,7 @@
+item:				supplier:		part number:		notes:
+1xPCB				OSH Park		-			OSH accepts eagle files directly, so you can simply upload the brd file to their website
+1x 2x25pin m .05" smt header  	digikey			A33539-ND 		This part selected to match Miller lab existing cabling. an unshrouded header should be fine for alternative use cases
+1x DB37f board mount		digikey			A32078-ND
+2x 2pin jumper			digikey			3M9447-ND		only populate Either the ground or Vref jumper positions depending on whether the subject is to be connected to system ground or system reference
+6x 2x8pin f header		digikey			S7107-ND
+1x 1x5pin f header		digikey			S7038-ND

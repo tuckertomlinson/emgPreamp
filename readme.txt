@@ -61,15 +61,16 @@ artifacts in my recordings
     -power rail, backplane ground and reference rail are isolated from the supplied power.
 
 
-I have tried to label the lines in each PCB in a sane way, so it should
-be possible to sort out what's going on. 
+The circuit schematics for this project are built in Eagle. 
+I have tried to label the lines in each PCB in a sane way, so it should be possible to sort out what's going on. 
 
 In some cases I have needed to create a custom part based on other 
-existing libraries. I have not explicitly included those libraries in
-this project.
+existing libraries in order to get the correct footprint and pinout. 
+I have not explicitly included those libraries in this project.
 
+Currently the backplane and daughter cards are tested and functioning as designed. With implanted EMG wires it is common to see single motor unit acticity in the EMG signal. The power-conditioning board is not yet tested
 
 Tucker Tomlinson
 tuckertomlinson@gmail.com
-Aug 03 2016
+Jan 25 2017
 

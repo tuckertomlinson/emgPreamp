@@ -1,0 +1,9 @@
+item:				supplier:		part number:		notes:
+1xPCB				OSH Park		-			OSH accepts eagle files directly, so you can simply upload the brd file to their website
+2x AD8224 instrumentation amp	digikey			AD8224ACPZ-R7CT-ND 
+1x 2x8pin M 90deg header	digikey			609-3337-ND
+4x .01uF 0805 capacitor		digikey			1276-1007-1-ND 
+8x 4700pF 1% NP0 0805 capacitor	digikey			490-8288-1-ND		the 1% tolerance isn't necessary, but you need to match capacitor values as well as possible, and the minor increase in cost is offset by the labor savings matching caps
+8x 1M 0.1% 0805 resistor	digikey			P1MDACT-ND 		the 0.1% tolerance isn't necessary, but you need to match resistor values as well as possible, and the minor increase in cost is offset by the labor savings matching resistors
+4x 499ohm 0805 resistor		digikey			P499CCT-ND 		These set the gain at 100x. Check the AD8224 datasheet to select the correct resistor for alternate gain settings
+4x 49.9ohm 0805 resistor	digikey			P49.9CCT-ND 		inline with output to inhibit ringing
