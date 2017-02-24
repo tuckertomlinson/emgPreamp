@@ -49,8 +49,8 @@ artifacts in my recordings
   -4 lines of amplified differential signal centered on the reference rail
 -Backplane has a 5pin header socket that is the source of the ground, power and reference rails
   -power connection to external systems will depend on the DAC format you use
-  -for a 0V centered DAC (e.g. +/-5V), isolate the ground and power rails from the world, and short the reference to the DAC ground
-  -for a positive biased DAC (e.g. 0-10V), connect the ground rail to the DAC ground, and the reference rail to one of the DAC inputs
+  -for a 0V centered ADC (e.g. +/-5V), isolate the ground and power rails from the world, and short the reference to the ADC ground
+  -for a positive biased ADC (e.g. 0-10V), connect the ground rail to the DAC ground, and the reference rail to one of the ADC inputs
     -logging the voltage of VRef allows you to subtract in software, recovering the true differential signal
   -The easiest power solution is to simply use 2x 9V batteries in series
     -Power rail is 18V, reference rail is 9V
