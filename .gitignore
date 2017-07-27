@@ -43,14 +43,12 @@ Thumbs.db
 
 # Image formats
 # Keep out possible sensitive images
-*.jpg
 *.png
 *.tif
 *.TIFF
 *.bmp
 *.fig
 *.eps
-*.pdf
 *.ppt
 *.pptx
 *.doc
