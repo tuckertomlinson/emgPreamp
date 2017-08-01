@@ -1,9 +1,12 @@
 item:				supplier:		part number:		notes:
 1xPCB				OSH Park		-			OSH accepts eagle files directly, so you can simply upload the brd file to their website
-2x AD8224 instrumentation amp	digikey			AD8224ACPZ-R7CT-ND 
+1xsolder mask			OSH stencil		-			you can skip this and apply solder paste by hand, but will have much higher rate of solder-flow errors, particularly under the QVFN-16 amp chips
+2x AD8224 instrumentation amp	digikey			AD8224ACPZ-R7CT-ND 	The AD8222 is a pin compatible part with slightly different characteristics (higher gain capability, better CMRR, higher bias current), that may be substituted if desired
 1x 2x8pin M 90deg header	digikey			609-3337-ND
-4x .01uF 0805 capacitor		digikey			1276-1007-1-ND 
+8x .01uF 0805 capacitor		digikey			1276-1007-1-ND 		decoupling cap for inputs to amps. no particularly high tolerances needed.
+4x 100pF 0805 capacitor		digikey			478-10493-1-ND		RF suppression cap for input lines. Should be significantly lower impedance than caps on input lines.
+8x 10k 0.1% 0805 resistor	digikey			P10KDACT-ND		.1% is probably not necessary, but for low volume production, its worth a few extra dollars to match everything
 8x 4700pF 1% NP0 0805 capacitor	digikey			490-8288-1-ND		the 1% tolerance isn't necessary, but you need to match capacitor values as well as possible, and the minor increase in cost is offset by the labor savings matching caps
 8x 1M 0.1% 0805 resistor	digikey			P1MDACT-ND 		the 0.1% tolerance isn't necessary, but you need to match resistor values as well as possible, and the minor increase in cost is offset by the labor savings matching resistors
-4x 499ohm 0805 resistor		digikey			P499CCT-ND 		These set the gain at 100x. Check the AD8224 datasheet to select the correct resistor for alternate gain settings
+4x 499ohm 0805 resistor		digikey			P499CCT-ND 		These set the gain at 100x. Check the AD8224 datasheet to select the correct resistor for alternate gain settings 
 4x 49.9ohm 0805 resistor	digikey			P49.9CCT-ND 		inline with output to inhibit ringing
